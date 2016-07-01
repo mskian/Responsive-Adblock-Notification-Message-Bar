@@ -2,7 +2,7 @@
 Responsive Adblock Notification Message Bar for Wordpress 
 
 How to Use this ?
-- Copy the Codes From <b>ab-msg-bar.php</b>
+- Copy the Codes From <b>ab-msg-bar.php</b> File
 - Paste it on your Theme's <b>Function.php</b> File 
 - Now Paste the below PHP Snippet on your Theme's Header.php File below open Body Tag Check the Below image
 
