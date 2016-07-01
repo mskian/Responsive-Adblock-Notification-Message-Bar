@@ -26,11 +26,11 @@ function abcr_css() {
 
 $output="<style>
 #ab-msg{
-background: #e74c3c; // Change Notification Bar Background Color
+background: #e74c3c;
 color: #fff;
 font-size:16px; 
 position:absolute;
-top: 0; // Change Notification Bar Position
+top: 0;
 left: 0;
 right: 0;
 width: 100% !important;
@@ -45,7 +45,7 @@ echo $output;
 
 // Responsive Adblocker Notification Bar Js (Detect the Adblocker)
 /**
- * onerror="adBlockFunction();" on your Adsense Externalscript File Ex - > <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" onerror="adBlockFunction();"></script> (dnt add this on all ads add this in on any one your ad slot)
+ * onerror="adBlockFunction();" on your Adsense Externalscript File Ex - > <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" onerror="adBlockFunction();"></script> ( Don't add this on your all Ad slot's)
  * version 1.0
  * Developed by Santhoshveer (Allwebtuts.com)
  * 
