@@ -12,12 +12,12 @@ do_action('wp_after_body');
 }
 
 // Responsive Adblocker Notification Bar Notification Text
-function abmsghead() {
+function abmsgh() {
 ?>
-<div id='ab-msg'>Disable Adblocker For - <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></div>
+<div id='ab-msg' style='display: none;'>Please Disable Adblocker For <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></div>
 <?php
 }
-add_action( 'wp_after_body', 'abmsghead' );
+add_action( 'wp_after_body', 'abmsgh' );
 
 // Responsive Adblocker Notification Bar CSS
 
@@ -25,18 +25,32 @@ add_action('wp_head','abcr_css');
 function abcr_css() {
 
 $output="<style>
-#ab-msg{
-background: #e74c3c;
-color: #fff;
-font-size:16px; 
-position:absolute;
-top: 0;
+#ab-msg {
+display: none;
+text-align: center;
+position: fixed;
 left: 0;
 right: 0;
-width: 100% !important;
-padding: 10px 0px;
-text-align: center;}
-#ab-msg a {color: #ffffff; border-bottom: 1px dotted;}
+top: 0;
+background: #e74c3c;
+color: #FFF;
+padding: 10px;
+z-index: 999999;
+font-size: 16px;
+}
+#ab-msg p {
+margin: 0 20px;
+display: inline-block;
+}
+#ab-msg a, #ab-msg a:visited {
+text-decoration: none;
+color: #FFC107;
+border-bottom: 1px dotted;
+transition: 200ms color;
+}
+#ab-msg a:hover, #ab-msg a:active {
+color: #b2f7ff;
+}
 </style>";
 
 echo $output;
