@@ -6,18 +6,18 @@
  * 
  */
  
-// Html Tags will Display in Below </body> Tag
+// Html Tags will Display in Below <body> Tag
 function wp_after_body() {  
 do_action('wp_after_body');
 }
 
 // Responsive Adblocker Notification Bar Notification Text
-function fbsdkhead() {
+function abmsghead() {
 ?>
 <div id='ab-msg'>Disable Adblocker For - <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></div>
 <?php
 }
-add_action( 'wp_after_body', 'fbsdkhead' );
+add_action( 'wp_after_body', 'abmsghead' );
 
 // Responsive Adblocker Notification Bar CSS
 
