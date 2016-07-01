@@ -1,2 +1,34 @@
-# Responsive-Adblock-Notification-Message-Bar
-Responsive Adblock Notification Message Bar - 
+
+Responsive Adblock Notification Message Bar for Wordpress 
+
+How to Use this ?
+- Copy the Codes From <b>ab-msg-bar.php</b>
+- Paste it on your Theme's <b>Function.php</b> File 
+- Now Paste the below PHP Snippet on your Theme's Header.php File (below Body tag)
+- 
+<code><?php wp_after_body(); ?></code>
+
+<img src="https://github.com/mskian/Responsive-Adblock-Notification-Message-Bar/blob/master/bbdy.jpg?raw=true" alt="mskian" />
+
+- Final Step Paste this onclick event script on your Adsense  asynchronous External File 
+<pre>onerror="adBlockFunction();"</pre>
+- Add this script on Anyone your Ad slot Don't add this on your all Ad slot's Check below image
+
+<img src="https://github.com/mskian/Responsive-Adblock-Notification-Message-Bar/blob/master/add1.jpg?raw=true" alt="mskian" />
+
+- That's All Successfull we Install the Responsive Adblocker Notification Bar in our Wordpress website :-) 
+
+<h3>Advanatages</h3>
+- It will not Affect your User Experience
+- 100% Responsive support in Mobile Device
+
+For Demo <a href="http://www.myindianfestivals.com/blog/" >Click Here</a> (Enable Adblocker and Check it)
+ 
+Responsive Adblock Notification Message Bar for Wordpress Santhoshveer(allwebtuts.com)
+
+Credits 
+
+- Got this Concept From 9Lessons.info
+- Useful Adblock Related Discussion - http://stackoverflow.com/questions/4869154/how-to-detect-adblock-on-my-website
+- Adblock Detector method onerror Event Javascript method - http://www.w3schools.com/jsref/event_onerror.asp
+
