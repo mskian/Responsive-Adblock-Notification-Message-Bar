@@ -5,7 +5,7 @@ How to Use this ?
 - Copy the Codes From <b>ab-msg-bar.php</b>
 - Paste it on your Theme's <b>Function.php</b> File 
 - Now Paste the below PHP Snippet on your Theme's Header.php File (below Body tag)
-- 
+
 <code><?php wp_after_body(); ?></code>
 
 <img src="https://github.com/mskian/Responsive-Adblock-Notification-Message-Bar/blob/master/bbdy.jpg?raw=true" alt="mskian" />
@@ -30,5 +30,5 @@ Credits
 
 - Got this Concept From 9Lessons.info
 - Useful Adblock Related Discussion - http://stackoverflow.com/questions/4869154/how-to-detect-adblock-on-my-website
-- Adblock Detector method onerror Event Javascript method - http://www.w3schools.com/jsref/event_onerror.asp
+- Adblock Detector method onerror Event Javascript method from <a href="http://www.w3schools.com/jsref/event_onerror.asp" >w3schools.com</a>
 
