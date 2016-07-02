@@ -3,20 +3,20 @@ Responsive Adblock Notification Message Bar for Wordpress beta version
 
 How to Use this ?
 - Copy the Codes From <b>ab-msg-bar.php</b> File
-- Paste it on your Theme's <b>Function.php</b> File (we recommend to create a Child theme for add Custom functionalities or Create a Site Specific  Wordpress Plugin)
-- Now Paste the below PHP Snippet on your Theme's Header.php File below open Body Tag Check the Below image
+- Paste the below code in to your Theme's <b>Function.php</b> File (we recommend you to create a Child theme for add Custom functionalities or Create a Site Specific Wordpress Plugin)
+- Now Paste the below PHP Snippet on your Theme's Header.php File below the opening Body Tag. Check the Below image
 
 <code><?php wp_after_body(); ?></code>
 
 <img src="https://github.com/mskian/Responsive-Adblock-Notification-Message-Bar/blob/master/bbdy.jpg?raw=true" alt="mskian" />
 
-- Final Step Paste this onclick event script on your Adsense  asynchronous External File 
+- Finally Paste this onclick event script on your Adsense asynchronous External File 
 <pre>onerror="adBlockFunction();"</pre>
-- Add this script on Anyone your Ad slot Don't add this on your all Ad slot's Check below image
+- Add this script on Anyone your Ad slot (Don't add this on your all Ad slot's) Check below image
 
 <img src="https://github.com/mskian/Responsive-Adblock-Notification-Message-Bar/blob/master/add1.jpg?raw=true" alt="mskian" />
 
-- That's All Successfull we Install the Responsive Adblocker Notification Bar in our Wordpress website :-) 
+- That's All. You have Successfull Installed the Responsive Adblocker Notification Bar in your Wordpress website :-) 
 
 <h3>Advanatages</h3>
 - It will not Affect your User Experience
