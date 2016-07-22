@@ -1,5 +1,5 @@
 
-Responsive Adblock Notification Message Bar for Wordpress beta version
+Responsive Adblock Notification Message Bar for Wordpress version 1.1 with Google Analytics tracking
 
 How to Use this ?
 - Copy the Codes From <b>functions.php</b> File
@@ -23,6 +23,7 @@ How to Use this ?
 - 100% Responsive support in Mobile Device
  
 Responsive Adblock Notification Message Bar for Wordpress Santhoshveer(allwebtuts.com)
+Developed by 9lessons.info <a href="http://www.9lessons.info/2016/07/ad-blocker-detector-for-adsense-with.html" target="_blank" >Ad Blocker Detector for Google Adsense with JavaScript</a> 
 
 Credits 
 
