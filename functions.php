@@ -52,9 +52,15 @@ echo $output;
 add_action( 'wp_head', 'ad_bb_message' );
 function ad_bb_message() { ?>
 
-<script type="text/javascript">
+<script>
 function adBlockFunction()
 {
+// Google Analytics Tracking 
+setTimeout(function() { 
+ga('send', 'event', 'Blocker', 'click','Blocker');
+},2000);
+// Google Analytics End
+
 document.getElementById('ab-msg').style.display = 'block';
 }
 </script>
