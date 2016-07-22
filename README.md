@@ -26,7 +26,6 @@ Responsive Adblock Notification Message Bar for Wordpress Santhoshveer(allwebtut
 
 Credits 
 
-- Got this Concept From 9Lessons.info
+- Got this Concept and Functions From 9Lessons.info <a href="http://www.9lessons.info/2016/07/ad-blocker-detector-for-adsense-with.html" target="_blank" >Ad Blocker Detector</a>
 - Useful Adblock Related Discussion in - <a href="http://stackoverflow.com/questions/4869154/how-to-detect-adblock-on-my-website" target="_blank" >stackoverflow</a>
 - Adblock Detector method (onerror Event Javascript method) from <a href="http://www.w3schools.com/jsref/event_onerror.asp" target="_blank" >w3schools.com</a>
-
