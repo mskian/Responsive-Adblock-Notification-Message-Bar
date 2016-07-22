@@ -21,8 +21,6 @@ How to Use this ?
 <h3>Advanatages</h3>
 - It will not Affect your User Experience
 - 100% Responsive support in Mobile Device
-
-For Demo <a href="http://www.myindianfestivals.com/" target="_blank">Click Here</a> (Enable Adblocker and Check it)
  
 Responsive Adblock Notification Message Bar for Wordpress Santhoshveer(allwebtuts.com)
 
